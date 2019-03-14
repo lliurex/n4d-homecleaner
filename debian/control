@@ -1,0 +1,14 @@
+Source: n4d-homecleaner
+Section: misc
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Angel Berlanas Vicente <aberlanas.gva@gmail.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.5
+
+Package: n4d-homecleaner
+Architecture: all
+Pre-Depends: n4d (>= 0.83)
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Description:  n4d home cleaner plugin
+ Deletes homes of missing users
