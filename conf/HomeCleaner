@@ -1,0 +1,6 @@
+[SETUP]
+type=python
+path=HomeCleaner.py
+class=HomeCleaner
+[METHODS]
+delete_orphan_homes=sudo,admins
